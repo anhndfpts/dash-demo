@@ -2,3 +2,4 @@ dash==3.1.1
 pandas==2.3.1
 plotly==6.2.0
 gunicorn
+psycopg2-binary
