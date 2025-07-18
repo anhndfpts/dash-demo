@@ -1,0 +1,8 @@
+services:
+  - name: render-dash-github-demo
+    type: web
+    env: python
+    plan: free
+    region: singapore
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:server
